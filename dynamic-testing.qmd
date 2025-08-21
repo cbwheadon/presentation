@@ -1,5 +1,6 @@
 ---
-title: "AI Feedback in a Dynamic Testing Environment"
+title: "Dynamic Testing of Writing"
+subtitle:  "FREMO 2025"
 author: "Chris Wheadon"
 institute: No More Marking
 format:
