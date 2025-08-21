@@ -1,0 +1,73 @@
+---
+title: "Vertical Equating"
+author: "Chris Wheadon"
+institute: No More Marking
+format:
+  revealjs:
+    theme: serif
+    logo: Master-NMM.png
+---
+
+# Vertical Equating & Scale Interpretability
+
+* **Live demo**
+* One to Six: https://bit.ly/one_to_six
+* Seven to Twelve https://bit.ly/seven_to_twelve
+
+
+## What is Vertical Equating?
+*   A statistical process to place test scores from different educational levels onto a common scale.
+*   Goal: Measure student growth and compare scores across grades.
+
+## Problem 1: Scale Interpretability & Equal Intervals
+*   **Challenge**: Ensuring the scale has equal, meaningful intervals is difficult and often debated.
+    *   The assumption that a score difference means the same amount of learning at different points on the scale is often not met.
+    *   Analogy: 80°F is not "twice as hot" as 40°F, though the numerical interval is consistent.
+*   **Impact**: If intervals aren't equal or consistently interpretable, "gain scores" can be misleading and distort actual student growth.
+*   **Risk**: Over-simplifies complex, non-linear learning and can lead to misinterpretations by stakeholders.
+
+---
+
+## Problem 2: Content & Construct Comparability
+*   Ensuring tests at different grade levels measure the *same* underlying content or psychological construct, just at varying difficulty.
+*   This "construct consistency" is crucial for a meaningful continuous scale.
+
+## Why It's Difficult
+*   **Curriculum Changes**: Content, instructional focus, and cognitive demands evolve significantly across grades (e.g., basic numeracy vs. algebra).
+    *   It's often unclear if the same dimensions are truly being assessed, especially across several grades.
+*   **Validity Concerns**: If a higher-grade test includes content irrelevant to lower-grade students, its validity for those students is questionable.
+*   **Shifting Constructs**: The scale might become a composite of related but distinct abilities rather than a single, continuous trait.
+    *   This can lead to construct underrepresentation or irrelevant variance.
+*   **Pressure for Homogenization**: Focus on common items across grades might sideline unique, grade-specific learning.
+
+---
+
+## Problem 3: Methodological Sensitivity
+
+*   The final vertical scale and growth interpretations are highly sensitive to the specific methodological choices made during the equating process.
+*   There's no single "correct" pathway; numerous decisions are involved.
+
+## Key Technical Choices & Their Impact
+*   **IRT Model Selection (e.g., Rasch, 2PL, 3PL)**: Affects item parameters, scale "stretch/compression," and growth patterns.
+*   **Linking Design (e.g., common-item non-equivalent groups)**: Influences robustness to group differences.
+*   **Calibration Strategy (e.g., concurrent vs. separate)**: Can impact item parameter stability and scale consistency, especially with diverse groups.
+*   **Ability Estimation Method**: Can affect individual score estimates and thus aggregated growth.
+*   **Result**: Different methods can lead to different equating results and interpretations of the same underlying data.
+
+## Compounding Factors
+*   **Lack of Clear Guidance**: Often sparse recommendations for many specific scaling decisions.
+*   **Poor Documentation**: Technical details of methods used are frequently inadequately reported, hindering evaluation and replication.
+*   **Comparability Issues**: Makes comparing growth results across different testing programs difficult.
+
+---
+
+## Problem 4: Linking Items
+*   Common items administered across different grade levels to mathematically connect test forms onto a single vertical scale. Their quality is paramount.
+* Inapplicable Guidelines: Horizontal equating guidelines (for similar ability groups) are often adopted, but vertical scaling involves systematically different ability groups. 
+* Item Stability (DIF/Drift): Items may function differently across grades (e.g., be unexpectedly easier/harder) even for students with the same overall proficiency. 
+* Screening for unstable items is challenging, and methods vary.
+
+## Problem 4: Linking Items
+
+* Quantity vs. Quality Dilemma: No consensus on the ideal number of linking items. More items increase risk of including unstable ones; fewer, high-quality items might be better but harder to select. 
+* Representativeness: Focus on stable linking items might lead to a set that isn't fully representative of the broader curriculum at each grade. 
